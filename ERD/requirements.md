@@ -1,3 +1,6 @@
+# AirBnB ERD
+
+```text
 // Use DBML to define your database structure
 // Docs: https://dbml.dbdiagram.io/docs
 
@@ -94,3 +97,4 @@ recipient_id uuid [ref: > users.user_id]
 message_body text [not null]
 sent_at timestamp [default: `current_timestamp`]
 }
+```
